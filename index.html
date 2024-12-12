@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web con contenido multimedia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Página Multimedia</h1>
+    </header>
+
+    <section>
+        <h2>Video</h2>
+        <video width="500" height="340" controls>
+            <source src="recursos/meme.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta <code>video</code>.
+        </video>
+    </section>
+
+    <section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="recursos/marito.mp3" type="audio/mpeg">
+            Tu navegador no soporta la etiqueta <code>audio</code>.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Object</h2>
+        <object data="recursos/folagor.jpg">
+            Tu navegador no puede mostrar este archivo.
+        </object>
+    </section>
+
+    <section>
+        <h2>Embed</h2>
+        <embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="100%" height="500" type="application/pdf">
+    </section>
+
+    <section>
+        <h2>Iframe</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Pr9KoQnUyRA" title="YouTube video"></iframe>
+    </section>
+
+</body>
+</html>

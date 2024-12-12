@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+video, audio, object, embed, iframe {
+    margin: 1rem 0;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
