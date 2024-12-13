@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: rgb(255, 255, 255);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,24 @@ body {
     justify-content: center;
 }
 
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+header > h1 {
+    margin-right: 7rem;
+}
+
+header > object {
+    float: left;
+    width: 5%;
+    border: none;
+    margin-left: 30px;
+}
+
 header {
-    background-color: #6200ea;
+    background-color: #ffcc03;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -29,4 +45,9 @@ video, audio, object, embed, iframe {
     max-width: 100%;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+.patrocinador {
+    border: none;
+    margin-left: 1.4rem;
 }
